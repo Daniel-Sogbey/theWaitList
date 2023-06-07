@@ -6,13 +6,25 @@ body{
     padding-left: 10%;
 }
 
+#updates{
+    margin-left: 100%;
+}
+
+.field{
+    margin: 10px;
+    background: transparent;
+}
+
 #section{
     margin: 12% 10%;
 }
 
-.design{
-    color: rgb(226, 43, 134);
-}
+    .gradient-text {
+        background: linear-gradient(to right, #ff006a, #0000ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
 
 .updates{
     float: right;
