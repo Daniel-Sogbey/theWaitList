@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(15, 1, 27);
+    color: #fff;
+
+}
+
+.updates{
+    float: right;
+}
+
+.design{
+    color: rgb(226, 43, 156);
+}
+
+.btn, .field{
+    width: 50%;
+    border: 1px solid #fff;
+    padding: 50%;
+    margin: auto;
+}

@@ -13,6 +13,7 @@ app.set("views", path.join(__dirname, "views"));
 
 app.get("/", (req, res) => {
   res.status(200).json({ msg: "Welcome" });
+
 });
 
 app.listen(3000, () => console.log("connect successfully to server"));
