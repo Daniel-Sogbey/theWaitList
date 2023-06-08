@@ -6,6 +6,25 @@ body{
     padding-left: 10%;
 }
 
+#redirect{
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    background-color: #1b1717;
+}
+
+.icon{
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  margin-left: 200px;
+}
+
+.check{
+    margin: 12px 12px;
+}
+
 #updates{
     margin-left: 100%;
 }
@@ -13,6 +32,7 @@ body{
 .field{
     margin: 10px;
     background: transparent;
+    color: #fff;
 }
 
 #section{
