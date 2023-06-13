@@ -1,16 +1,36 @@
 
 body{
+    font-family: "Montserrat";
     background-color: rgb(11, 1, 19);
     color: #fff;
     margin: 10% 15%;
     padding-left: 10%;
 }
 
-#redirect{
+.close{
+    rotate: 45deg;
+    float: right;
+    position: relative;
+    font-size: 50px;
+    cursor: pointer;
+  
+}
+
+#popup{
     border: 1px solid black;
-    width: 500px;
-    height: 300px;
+    width: 380px;
+    height: 400px;
     background-color: #1b1717;
+    position: absolute;
+    bottom: 15%;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+
+h1, h3{
+    margin-top: 5%;
 }
 
 .icon{
@@ -18,7 +38,8 @@ body{
     width: 40px;
     height: 40px;
     border-radius: 20px;
-  margin-left: 200px;
+    margin-left: 170px;
+    margin-top: 30px;
 }
 
 .check{
@@ -27,6 +48,7 @@ body{
 
 #updates{
     margin-left: 100%;
+    top: 20px;
 }
 
 .field{
@@ -35,9 +57,19 @@ body{
     color: #fff;
 }
 
-#section{
+.container{
     margin: 12% 10%;
 }
+
+.container#blur.active{
+    filter: blur(20px); 
+    pointer-events: none;
+    user-select: none;
+    transition: 0.5s;
+    cursor: pointer
+    
+    ;
+ }
 
     .gradient-text {
         background: linear-gradient(to right, #ff006a, #0000ff);
@@ -45,10 +77,6 @@ body{
         -webkit-text-fill-color: transparent;
       }
       
-
-.updates{
-    float: right;
-}
 
 .btn, .field{
     border: 1px solid #fff;

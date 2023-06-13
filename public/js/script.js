@@ -1,10 +1,19 @@
-let section = document.querySelector("#section");
-let redirect = document.querySelector("#redirect");
+let container = document.querySelector(".container");
+let popup = document.querySelector("#popup");
 let btn = document.querySelector(".btn");
+let close = document.querySelector(".close");
 
-redirect.style.display = "none";
+popup.style.display = "none"
 
-btn.addEventListener("click", () => {
-    section.style.display = "none";
-    redirect.style.display = "block";
-})
+btn.addEventListener("click", function(){
+    container.classList.toggle("active");
+
+    popup.style.display = "block";
+});
+
+close.addEventListener("click", function(){
+    popup.style.display = "none"
+    container.classList.remove("active");
+});
+
+
